@@ -3,5 +3,5 @@ This takes an integer N and generates the CNF formula for the N-queen problem in
 
 To see see that the CNF is correct use:
 1) https://www.msoos.org/2013/09/minisat-in-your-browser/ (Note: this will not work for large N (ie. N=100) but it has useful output)
-2) https://www.comp.nus.edu.sg/~gregory/sat/  (Can determine satisfiability of the CNF but does not give other output)
+2) https://www.comp.nus.edu.sg/~gregory/sat/  (Can determine satisfiability of the CNF but does not give other output; needs "p cnf n*n" header)
 3) http://minisat.se/ (Download MiniSAT and run on own computer)
