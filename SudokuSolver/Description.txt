@@ -1,1 +1,5 @@
+This program reads a sudoku puzzle from a file and generates clauses in the DIMACS format. To understand this problem, you may read http://sat.inesc.pt/~ines/publications/aimath06.pdf
+It use the propositional variables Si,j,d for a Sudoku puzzle, which is true iff the digit in the cell at row i and column j is d, where i, j, and d are in { 1, 2, ..., 9 }. To encode this variable into an integer in the DIMACS format, it uses: code(i, j, d) = 100*i+10*j+d.
+
+Information on DIMACS format: http://www.domagoj-babic.com/uploads/ResearchProjects/Spear/dimacs-cnf.pdf
 
